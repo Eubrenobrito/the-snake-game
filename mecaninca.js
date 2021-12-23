@@ -13,8 +13,8 @@ window.onload =function(){
     var vx = vy = 0; //velocidade y  e x =0
     var px = 10;//posicao
     var py = 15;//posicao
-    var tp = 20;// tamanho do isca
-    var qp = 20;//quantidade de peças do tabuleiro
+    var tp = 25;// tamanho do isca 20
+    var qp = 30;//quantidade de peças do tabuleiro20
     var ax=ay=15;//posicao inicial da cobra
 
     
@@ -41,10 +41,10 @@ window.onload =function(){
         ctx.fillStyle = "black";
         ctx.fillRect(0,0, stage.width, stage.height);
         
-        ctx.fillStyle = "red";
+        ctx.fillStyle = "white";
         ctx.fillRect(ax*tp, ay*tp, tp, tp);
         
-        ctx.fillStyle = "gray"
+        ctx.fillStyle = "green"
         for (var i= 0; i< trail.length; i++) {
             ctx.fillRect(trail[i].x*tp, trail[i].y*tp, tp-1 ,tp-1);
             if (trail[i].x == px && trail[i].y == py){
