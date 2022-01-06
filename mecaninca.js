@@ -14,7 +14,7 @@ window.onload =function(){
     var px = 10;//posicao
     var py = 15;//posicao
     var tp = 25;// tamanho do isca 20
-    var qp = 30;//quantidade de peças do tabuleiro20
+    var qp = 38;//quantidade de peças do tabuleiro20
     var ax=ay=15;//posicao inicial da cobra
 
     
